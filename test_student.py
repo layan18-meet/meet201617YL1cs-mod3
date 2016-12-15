@@ -1,0 +1,13 @@
+from student import Student
+carlos=Student("Nazareth",15,1.78,"Chocolate chip")
+luna=Student("Nazareth",15,1.60,"Chicken")
+layan=Student("Jdaydeh",15,1.68,"bananas")
+carlos.print_summary()
+luna.print_summary()
+layan.print_summary()
+carlos_ggap=carlos.get_giraffe_gap()
+luna_ggap=luna.get_giraffe_gap()
+layan_ggap=layan.get_giraffe_gap()
+print(carlos_ggap)
+print(luna_ggap)
+print(layan_ggap)
